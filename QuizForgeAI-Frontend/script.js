@@ -17,7 +17,7 @@ const MAX_FILE_SIZE = 10 * 1024 * 1024;
 const API_BASE_URL =
     ["localhost", "127.0.0.1"].includes(window.location.hostname)
         ? "http://localhost:8080"
-        : "https://quizforge-ai-backend.onrender.com";
+        : "https://quizforce-ai-2.onrender.com";
 
 let currentFile = null;
 let generatedQuestions = [];
